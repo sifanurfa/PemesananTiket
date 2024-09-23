@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PemesananTiket</string>
+    <array name="tujuan">
+        <item>Bandung</item>
+        <item>Banten</item>
+        <item>Bekasi</item>
+        <item>Cilacap</item>
+        <item>Jakarta</item>
+        <item>Karawang</item>
+        <item>Semarang</item>
+        <item>Solo</item>
+        <item>Surabaya</item>
+        <item>Yogyakarta</item>
+    </array>
+</resources>

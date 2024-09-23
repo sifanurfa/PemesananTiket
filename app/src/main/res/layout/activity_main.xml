@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title_pesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:text="Pemesanan Tiket Kereta"/>
+
+    <EditText
+        android:id="@+id/edit_username_register"
+        android:layout_width="match_parent"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/pilih_jam"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:drawableStart="@drawable/baseline_access_time_24"
+        android:hint="Jam Keberangkatan"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/pilih_tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:drawableStart="@drawable/baseline_calendar_month_24"
+        android:hint="Tanggal Keberangkatan"
+        android:focusable="false"/>
+
+    <Spinner
+        android:id="@+id/spinner_tujuan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"/>
+
+    <Button
+        android:id="@+id/btn_pesan_tiket"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/blue"
+        android:text="Pesan Tiket"/>
+
+</LinearLayout>
